@@ -1,7 +1,10 @@
 package pl.edgesoft.auctionservice.auction.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
-import pl.edgesoft.auctionservice.auction.model.Auction;
+import org.springframework.stereotype.Repository;
+import pl.edgesoft.auctionservice.auction.model.entity.Auction;
 
+@Repository
 public interface AuctionRepository extends MongoRepository<Auction, String> {
+
 }

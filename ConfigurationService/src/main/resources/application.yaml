@@ -5,5 +5,16 @@ spring:
     config:
       server:
         git:
-          uri: E:\Projekty\Microservices\Auctioneer\ConfigRepo
+          uri: git@github.com:Doseq/AuctioneerConfig.git
+          passphrase: uqVUdUXszX9dtHwGCxUXHmFKKba8N7Hc
+          clone-on-start: true
+          ignore-local-ssh-settings: true
+          private-key: |
+                      -----BEGIN EC PRIVATE KEY-----
+                      MIHcAgEBBEIA0xeWIMAPLs/ax6Mi/SgS0xwhU5sdJc8UlHbChNe/u6oPtB0Ye0Gi
+                      Q4IG5app7HX9dZTTfRA7PJkuQestdpRQvXOgBwYFK4EEACOhgYkDgYYABAGJzhhg
+                      DPjKVP3PtJAEdBtt11tH9rtNfSZyhLVDS4aAvomyJdQelsPSn70G57W2qTm1hNdJ
+                      qSbCNn0tX6LZ+VN0sQHxkJaRHsdu3+gLbiEtUbHJZPnG1RprBPyvBrC/4Zf6YZjq
+                      FiYXslLgjUq0EDFRz1YkTE6jCqFZD6IC5DHmw7Bt5A==
+                      -----END EC PRIVATE KEY-----
           default-label: master

@@ -2,7 +2,6 @@ package pl.edgesoft.auctionservice.offer.model;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 import pl.edgesoft.auctionservice.user.model.User;
 
 import java.math.BigDecimal;

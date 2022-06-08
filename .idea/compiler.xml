@@ -10,8 +10,8 @@
         <module name="NotificationService" />
         <module name="ConfigurationService" />
         <module name="OrderService" />
-        <module name="AuctionService" />
         <module name="UserService" />
+        <module name="AuctionService" />
         <module name="ServiceDiscovery" />
       </profile>
     </annotationProcessing>
