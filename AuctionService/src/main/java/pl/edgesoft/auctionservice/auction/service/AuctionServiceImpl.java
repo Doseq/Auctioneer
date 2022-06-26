@@ -30,7 +30,8 @@ public class AuctionServiceImpl implements AuctionService {
 
     @Override
     public Page<BasicInfoAuctionDto> findAllAuctions(Pageable pageable) {
-        return AuctionMapper.INSTANCE.auctionToBasicInfoAuctionDto(auctionRepository.findAll(pageable));
+        return auctionRepository.findAll(pageable)
+                .map(AuctionMapper.INSTANCE::auctionToBasicInfoAuctionDto);
     }
 
     @Override

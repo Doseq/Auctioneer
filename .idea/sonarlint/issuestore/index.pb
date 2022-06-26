@@ -15,3 +15,7 @@ K
 \ServiceDiscovery/src/main/java/pl/edgesoft/servicediscovery/ServiceDiscoveryApplication.java,c\1\c157c1a235f4fac3a4b9f1e7e2425fe1ab8e2092
 |
 LAuctionService/src/main/java/pl/edgesoft/auctionservice/user/model/User.java,7\0\7016f0b4d0d866f82347c3ec36e54b4e106a9993
+‹
+[AuctionService/src/test/java/pl/edgesoft/auctionservice/AuctionServiceApplicationTests.java,f\d\fd1476b7f42b5798509511436e12cb9dcef8c6ff
+†
+VAuctionService/src/main/java/pl/edgesoft/auctionservice/AuctionServiceApplication.java,b\2\b2ea6fc81f69dde5dc2b36eca0686c1a2f492592
