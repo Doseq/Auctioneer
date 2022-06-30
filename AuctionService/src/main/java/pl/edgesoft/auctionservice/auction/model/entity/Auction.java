@@ -38,7 +38,7 @@ public class Auction {
     private BigDecimal startingBid;
     private BigDecimal currentHighestBid;
     private Currency currency;
-    private List<Offer> offerList;
+    private List<Offer> offers;
     @CreatedDate
     private LocalDateTime createdAt;
     @LastModifiedDate
@@ -49,7 +49,11 @@ public class Auction {
     private User owner;
 
     public boolean hasNoOffers(){
-        return this.offerList.isEmpty();
+        return this.offers.isEmpty();
+    }
+
+    public boolean hasOffers(){
+        return !this.offers.isEmpty();
     }
 
     /**
